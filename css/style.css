@@ -271,3 +271,58 @@
         font-size: 1.5rem;
     }
 
+    /* About us section */
+
+    #about-us {
+        line-height: 2rem;
+        padding: 3rem 0;
+    }
+
+    .ceo-img {
+        background-image: url(../img/about.jpg);
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    #about-us .fa-quote-left {
+        color: var(--background-violet);
+        font-size: 3rem;
+        position: absolute;
+        top: -5%;
+        right: -5%;
+    }
+
+    #about-us h2 {
+        margin-bottom: 2rem;
+        color: var(--background-violet);
+        font-size: 2rem;
+    }
+
+    .about-img p {
+        color: var(--background-violet);
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+
+    .about-text {
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
+    .about-img a {
+        color: white;
+        background-color: var(--background-violet);
+        padding:0 1rem;
+        text-decoration: none;
+        margin-top: 1.5rem;
+    }
+
+    .about-text p {
+        margin-bottom: 2rem;
+    }
+

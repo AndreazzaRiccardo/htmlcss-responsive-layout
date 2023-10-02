@@ -63,6 +63,25 @@
         font-size: 2.5rem;
     }
 
+    /* About us section */
+
+    #about-us .container {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        gap: 3rem;
+    }
+
+    .about-text {
+        width:60%;
+    }
+
+    .about-img {
+        width: 30%;
+        justify-content: flex-end;
+    }
+    
+
     
 }
 
