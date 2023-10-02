@@ -326,3 +326,45 @@
         margin-bottom: 2rem;
     }
 
+    /* CTA Section */
+
+    #cta {
+        background-color: var(--background-violet);
+        text-align: center;
+        padding: 3rem 0;
+        color: white;
+        line-height: 1.5rem;
+    }
+
+    #cta span {
+        color: lightgrey;
+    }
+
+    #cta h3 {
+        color: white;
+        font-size: 1.5rem;
+        margin: 1.5rem 0 2.5rem;
+    }
+
+    #cta strong {
+        color: #FDC15F;
+        font-size: 3rem;
+    }
+
+    #cta p {
+        margin: 1.5rem 0;
+    }
+
+    #cta .btn {
+        background-color: white;
+        color: var(--background-violet);
+        text-decoration: none;
+        padding: 1rem 4rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    #cta p a {
+        color: white;
+    }
+
