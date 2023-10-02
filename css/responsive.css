@@ -32,6 +32,19 @@
         width: 50%;
     }
 
+    /* Partners section */
+
+    #partners .card {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .partner-img {
+        margin-right: 2rem;
+        aspect-ratio: 1/1;
+    }
+
     
 }
 
@@ -93,5 +106,21 @@
     #planning .card {
         text-align: center;
     }
+
+    /* Partners section */
+
+   #partners .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+   #partners h2 {
+        font-size: 2rem;
+    }
+
+    #partners .card {
+        margin: 1rem;
+    }
+
 
 }
