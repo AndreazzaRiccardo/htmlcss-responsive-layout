@@ -231,3 +231,43 @@
         background-image: url(../img/testimonial3.jpg);
     }
 
+    /* Benefits section */
+
+    #benefits {
+        background-color: var(--background-violet);
+        color: white;
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    #benefits .card {
+        color: black;
+        background-color: white;
+        line-height: 2rem;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #benefits .card span {
+        color: var(--background-violet);
+        font-size: 3rem;
+    }
+
+    #benefits .card h3 {
+        color: var(--background-violet);
+        margin: 1.5rem 0;
+        font-size: 1.5rem;
+    }
+
+    #benefits .btn {
+        background-color: var(--background-violet);
+        text-decoration: none;
+        color: white;
+        padding: 0.3rem 3rem;
+        margin-top: 2rem;
+    }
+
+    #benefits h2 {
+        font-size: 1.5rem;
+    }
+

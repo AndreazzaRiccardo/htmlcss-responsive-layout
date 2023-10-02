@@ -45,8 +45,30 @@
         aspect-ratio: 1/1;
     }
 
+    /* Benefits section */
+
+    .row-benefits {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 2.5rem;
+    }
+
+    #benefits .card {
+        width: calc(100% / 2 - 1rem / 2);
+        margin: 0;
+    }
+
+    #benefits h2 {
+        font-size: 2.5rem;
+    }
+
     
 }
+
+
+
+
 
 /* Mediaquery for desktop */
 
@@ -120,6 +142,16 @@
 
     #partners .card {
         margin: 1rem;
+    }
+
+    /* Benefits section */
+
+    #benefits .card {
+        width: calc(100% / 3 - 2rem / 3);
+    }
+
+    #benefits .container {
+        display: block;
     }
 
 
