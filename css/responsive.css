@@ -2,7 +2,35 @@
 
 @media screen and (min-width:768px) {
 
-    
+/* MAIN */
+
+    /* Try demo section */
+
+    #try-demo .card:first-child {
+        width: 50%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    #try-demo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 3rem 0;
+    }
+
+    #try-demo .card {
+        width: calc(100% / 3 - 2rem / 3);
+        margin: 0;
+    }
+
+    #try-demo img {
+        width: 50%;
+    }
 
     
 }
@@ -11,7 +39,7 @@
 
 @media screen and (min-width:992px) {
 
-    /* HEADER */
+/* HEADER */
 
     .container {
         width: 70%;
@@ -38,6 +66,19 @@
         align-items: center;
         list-style-type: none;
         gap: 1rem;
+    }
+
+/* MAIN */
+
+    /* Try demo section */
+
+    #try-demo .card:first-child {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #try-demo img {
+        align-self: flex-end;
     }
 
 }

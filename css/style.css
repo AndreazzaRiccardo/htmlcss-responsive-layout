@@ -10,6 +10,13 @@
         max-width: 100%;
     }
 
+/* ROOT */
+
+    :root {
+        --btn-color:#0084FD;
+        --background-blu:#B5DDFF;
+    }
+
 /* COMMON */
 
     body {
@@ -19,20 +26,26 @@
 
     .btn {
         padding:0.5rem 1rem;
-        border-radius: 20px;
+        border-radius: 30px;
         display: inline-block;
     }
 
     .container {
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
-        max-width: 1100px;
+        max-width: 1140px;
+    }
+
+    .card {
+        border-radius: 30px;
+        padding: 2rem;
+        margin: 2rem 0;
     }
 
 /* HEADER */
 
     header {
-        background-color:#0084FD ;
+        background-color:var(--btn-color) ;
         height: 70px;
         position: fixed;
         top: 0;
@@ -74,3 +87,57 @@
         background-color: white;
         color: black;
     }
+
+/* MAIN */
+
+    /* Section try demo */
+
+    #try-demo .card:first-child {
+        background-color: #B5DDFF;
+        text-align: left;
+        padding-bottom: 0;
+        line-height: 2rem;
+        font-weight: bold;
+        display: block;
+    }
+
+    #try-demo h2 {
+        margin-bottom: 2rem;
+        color: var(--btn-color);
+    }
+
+    #try-demo img {
+        display: block;
+    }
+
+    #try-demo .btn {
+        background-color:var(--btn-color);
+        margin: 2rem 0;
+        padding: 0.5rem 20%;
+    }
+
+    #try-demo a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: bold;
+    }
+
+    #try-demo .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2rem;
+        text-align: center;
+        background-color:var(--background-blu);
+        font-weight: bold;
+    }
+
+    .card>i {
+        color: var(--btn-color);
+        font-size:6rem;
+        margin-bottom: 1rem;
+    }
+
