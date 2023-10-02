@@ -81,4 +81,17 @@
         align-self: flex-end;
     }
 
+    /* Planning section */
+
+    #planning .container {
+        display: flex;
+        align-items: end;
+        gap: 3rem;
+        padding: 4rem;
+    }
+
+    #planning .card {
+        text-align: center;
+    }
+
 }

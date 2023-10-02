@@ -15,6 +15,7 @@
     :root {
         --btn-color:#0084FD;
         --background-blu:#B5DDFF;
+        --background-violet:#9792E4;
     }
 
 /* COMMON */
@@ -139,5 +140,42 @@
         color: var(--btn-color);
         font-size:6rem;
         margin-bottom: 1rem;
+    }
+
+    /* Section panning */
+
+    #planning {
+        background-color: var(--background-violet);
+        padding: 3rem 0;
+        color: white;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+
+    #planning .card {
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .planning-title {
+        margin: 2rem 0;
+    }
+
+    #planning h2 {
+        font-size: 1.5;
+    }
+
+    #planning a {
+        background-color: var(--background-violet);
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        color: black;
+        line-height: 50px;
+        text-align: center;
     }
 
