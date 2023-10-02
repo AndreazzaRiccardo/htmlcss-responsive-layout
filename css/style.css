@@ -368,3 +368,25 @@
         color: white;
     }
 
+/* FOOTER */
+
+    footer {
+        background-color: #333333;
+        color: white;
+        padding: 3rem 0;
+    }
+
+    footer .container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        margin-bottom: 3rem;
+    }
+
+    footer a {
+        color: var(--background-violet);
+    }
+

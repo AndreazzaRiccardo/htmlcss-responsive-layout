@@ -80,10 +80,16 @@
         width: 30%;
         justify-content: flex-end;
     }
-    
 
+/* FOOTER */
+
+    footer {
+        padding: 3rem 10rem;
+    }
     
 }
+
+
 
 
 
@@ -177,8 +183,15 @@
 
     #cta .container {
         display: block;
-        font-size: 1.5rem;
+        font-size:1.5rem;
     }
 
+    #cta strong {
+        font-size: 4rem;
+    }
+
+    #cta h3 {
+        font-size: 2rem;
+    }
 
 }
